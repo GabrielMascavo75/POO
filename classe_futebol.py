@@ -97,12 +97,13 @@ class Widereceiveretornador(Widereceiver, Specialteam):
 
     def __str__(self):
         return f'{super().__str__()} - Funções: Wide Reciver e Retornador'
-    
+
+#Código Teste - Hora do Jogo    
 if __name__ == '__main__':
-    print("=== ATAQUE ===")
-    qb = Quarterback("Tom Brady", 12)
-    wr = Widereceiver("Jerry Rice", 80)
-    rb = Runningback("Adrian Peterson", 28)
+    print("=== ATACANTES ===")
+    qb = Quarterback("Tom Brady", 12) #Patriots
+    wr = Widereceiver("Jerry Rice", 80)#Denver Broncos
+    rb = Runningback("Adrian Peterson", 28)#Seahawks
 
     print(qb)
     print(qb.lancar_bola(wr.nome))
@@ -110,10 +111,10 @@ if __name__ == '__main__':
     print(rb.correr_com_bola())
     print()
 
-    print("=== DEFESA ===")
-    lb = Linebacker("Ray Lewis", 52)
-    cb = Defensiveback("Deion Sanders", 21, "cornerback")
-    de = Defensivelineman("J.J. Watt", 99, "end")
+    print("=== DEFENSORES ===")
+    lb = Linebacker("Ray Lewis", 52)#Ravens
+    cb = Defensiveback("Deion Sanders", 21, "cornerback")#Ravens
+    de = Defensivelineman("J.J. Watt", 99, "end")#Arizona
 
     print(lb)
     print(lb.defesa_hibrida())
@@ -121,14 +122,14 @@ if __name__ == '__main__':
     print(de.bloquear_qb())
     print()
 
-    print("=== TIMES ESPECIAIS ===")
-    kicker = Specialteam("Adam Vinatieri", 4, "kicker")
+    print("=== JOGADORES ESPECIAIS ===")
+    kicker = Specialteam("Adam Vinatieri", 4, "kicker")#Colts
     print(kicker)
     print(kicker.acao())
     print()
 
-    print("=== HERANÇA MÚLTIPLA (WR + Retornador) ===")
-    devin = Widereceiveretornador("Devin Hester", 23)
+    print("=== HERANÇA MÚLTIPLA (WIDE RECEIVER E Retornador) ===")
+    devin = Widereceiveretornador("Devin Hester", 23)#Seahawks
     print(devin)
     print(devin.receber_passe())
     print(devin.acao())
