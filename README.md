@@ -1,2 +1,2 @@
 # POO
-Exercícios feitos em sala de programação orientada a objeto
+Testes de estudo relacionado a programação orientada a objetos.
