@@ -1,5 +1,6 @@
 # Programação Orientada a Objetos ⚽⚾🏀
-<img src="URL" width="500">
+<img src="https://raw.githubusercontent.com/GabrielMascavo75/POO/bc05d75db8797a927124b1bfd02ee4be8b7f6335/bolas_diferentes.jpg" width="500">
+  
 É um paradigma da programação que organiza códigos em torno de objetos, entidades que combinam atributos e métodos. A POO promove a reutilização, organização e modularidade do código, sendo amplamente usada em sistemas complexos.
 Nesse repositório será exposto conceitos como:
 
