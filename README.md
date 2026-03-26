@@ -10,6 +10,11 @@ __Atributos:__ Características ou propriedades do objeto (ex: cor, nome).
 __Métodos:__ Ações que o objeto pode realizar (ex: andar, calcular).  
 
 ---
-#1.Classe Pessoa
-O primeiro código foi feito para entender e aplicar o conceito de classe e 
+# 1.Adivinhação RPG 
+ O código do jogo de adivinhação demonstra uma aplicação consistente dos principais conceitos da Programação Orientada a Objetos (POO), como abstração, encapsulamento, herança e polimorfismo. A estrutura foi organizada de forma modular, favorecendo a reutilização, manutenção e expansão do sistema. A classe abstrata `Jogo` estabelece um modelo genérico ao definir os métodos `iniciar` e `jogar`, garantindo que qualquer classe derivada implemente essas funcionalidades. Esse uso evidencia o conceito de abstração, permitindo a criação de diferentes tipos de jogos seguindo uma mesma estrutura base.
+ 
+ A classe `Jogador` representa uma entidade do sistema, encapsulando atributos como nome e pontuação. Já a classe `JogoAdivinhacao`, que herda de `Jogo`, demonstra o uso de herança e polimorfismo ao implementar de forma específica os métodos definidos na classe base. Além disso, o uso de atributos privados, como `__tentativas` e `__limite`, reforça o encapsulamento, protegendo o estado interno do objeto. A lógica de definição de dificuldade no construtor mostra flexibilidade na configuração do jogo, ajustando limites de tentativas e intervalos de números conforme a escolha do usuário. O sistema de pontuação e ranking contribui para uma experiência mais interativa, enquanto a separação de funções auxiliares melhora a organização do código.
+ 
+ Por fim, o tratamento de exceções durante a entrada de dados aumenta a robustez do sistema, evitando falhas por entradas inválidas. Assim, o código evidencia um bom domínio dos fundamentos de POO, aliado a práticas que tornam o software mais organizado, seguro e eficiente.
+
 ---
